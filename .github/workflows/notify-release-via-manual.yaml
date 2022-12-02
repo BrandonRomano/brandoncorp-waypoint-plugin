@@ -20,6 +20,8 @@ jobs:
         with:
           repository: hashicorp/integration-release-action
           path: ./integration-release-action
+          # TODO: testing
+          ref: kw/use-hcl-validation
 
       - name: Notify Release
         uses: ./integration-release-action
