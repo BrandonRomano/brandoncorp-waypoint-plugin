@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       # TODO, this will be moved to a published action
       - name: Checkout integration-release-action
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: hashicorp/integration-release-action
           path: ./integration-release-action
