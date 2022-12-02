@@ -3,8 +3,8 @@ integration {
   description = "This is an sample Waypoint integration"
   identifier = "waypoint/brandoncorp-waypoint-plugin"
   components = [ "builder", "platform" ]
-  docs {
-    process_docs = true
-    readme_location = "./README.md"
-  }
+  # docs {
+  #   process_docs = true
+  #   readme_location = "./README.md"
+  # }
 }
