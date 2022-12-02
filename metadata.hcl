@@ -7,4 +7,5 @@ integration {
     process_docs = true
     readme_location = "./README.md"
   }
+  an_invalid_field = "foo"
 }
